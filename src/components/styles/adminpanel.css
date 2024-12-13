@@ -1,0 +1,19 @@
+.admin-panel{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 20% 80%;
+    position: relative;
+}
+
+.role-card-panel{
+   grid-area: 1 / 2;
+   height: 90%;
+}
+
+.nav-bar{
+    grid-area: 1/1;
+}
+
+@media (max-width: 799px) {
+   
+}
